@@ -34,5 +34,31 @@
     font-weight: 600;
     font-size: 19px;
     line-height: 22px;
+}
+.main_list:hover{
+    border-bottom: 2px solid #FF9900;
+}
+.main_list:focus{
+    border:  2px solid #FF9900;
+}
+.main_list:active{
+    border: none;
+    border-bottom: 2px solid #E1670E;
+    color: #E1670E;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.main_cont{
+    background: url(/img/low-angle-photo-of-balconies-2462015\ 1.jpg)no-repeat;
+    height: 100vh;
+}
+.headline{
+    color: white;
+    display: flex;
+}
+.text{
+    color: white;
     
 }
