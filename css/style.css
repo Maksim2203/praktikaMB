@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background: white;
+    box-shadow: 0px 1px 20px gray;
+}
+
+.header_main{
+    display: flex;
+}
+.header_cont{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 14px 0;
+    justify-content: space-between;
+}
+.header_tabl{
+    display: flex;
+}
+.main_item{
+    list-style: none;
+}
+.main_list{
+    text-decoration: none;
+    margin: 42px;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 22px;
+    
+}
